@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <div class="container header__wrapper">
+        <!-- navigation section -->
+        <nav class="header__nav">
+          <!-- logo -->
+          <a class="link logo header__logo" href="./index.html"
+            >Web<span class="header__logo--right-side">Studio</span></a
+          >
+
+          <!-- header links section -->
+          <ul class="list header__menu-list">
+            <li class="header__menu-item">
+              <a class="link header__nav-link" href="./index.html">Студия</a>
+            </li>
+            <li class="header__menu-item">
+              <a
+                class="link header__nav-link header__nav-link--active-page"
+                href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a class="link header__nav-link" href="./contacts.html"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <!-- header contacts section -->
+        <ul class="list header__contacts">
+          <li class="header__contact-item">
+            <a
+              class="link header__contact-link"
+              href="mailto:info@devstudio.com"
+              ><svg class="header__contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="header__contact-item">
+            <a class="link header__contact-link" href="tel:+380961111111"
+              ><svg class="header__contact-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- main section -->
+    <main class="section main-section">
+      <section class="portfolio">
+        <div class="container">
+          <h1 class="visually-hidden">Наши проекты</h1>
+          <ul class="list portfolio-filter">
+            <li class="category-item">
+              <button type="button" class="btn btn-category active-btn">
+                Все
+              </button>
+            </li>
+            <li class="category-item">
+              <button type="button" class="btn btn-category">Веб-сайты</button>
+            </li>
+            <li class="category-item">
+              <button type="button" class="btn btn-category">Приложения</button>
+            </li>
+            <li class="category-item">
+              <button type="button" class="btn btn-category">Дизайн</button>
+            </li>
+            <li class="category-item">
+              <button type="button" class="btn btn-category">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="list portfolio-items-list">
+            <li class="portfolio-item">
+              <a class="link portfolio-link" href="">
+                <div class="portfolio-item-wrap">
+                  <img
+                    class="image"
+                    src="./images/tekhnokryak.jpg"
+                    alt="Технокряк"
+                    width="370"
+                  />
+                  <p class="portfolio-picture-text">
+                    В ворота гостиницы губернского города NN въехала довольно
+                    красивая рессорная небольшая бричка, в какой ездят
+                    холостяки: отставные подполковники, штабс-капитаны,
+                    помещики, имеющие
+                  </p>
+                </div>
+                <div class="portfolio-item-text">
+                  <h2 class="title portfolio-item-name">Технокряк</h2>
+                  <p class="description-category">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a class="link portfolio-link" href="">
+                <div class="portfolio-item-wrap">
+                  <img
+                    class="image"
+                    src="./images/poster.jpg"
+                    alt="Постер New Orlean vs Golden Star"
+                    width="370"
+                  />
+                  <p class="portfolio-picture-text">
+                    около сотни душ крестьян, — словом, все те, которых называют
+                    господами средней руки. В бричке сидел господин, не
+                    красавец, но и не дурной наружности, ни слишком толст, ни
+                    слишком тонок;
+                  </p>
+                </div>
+                <div class="portfolio-item-text">
+                  <h2 class="title portfolio-item-name">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="description-category">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a class="link portfolio-link" href="">
+                <div class="portfolio-item-wrap">
+                  <img
+                    class="image"
+                    src="./images/seafood.jpg"
+                    alt="Ресторан Seafood"
+                    width="370"
+                  />
+                  <p class="portfolio-picture-text">
+                    нельзя сказать, чтобы стар, однако ж и не так чтобы слишком
+                    молод. Въезд его не произвел в городе совершенно никакого
+                    шума и не был сопровожден ничем особенным; только два
+                    русские
+                  </p>
+                </div>
+                <div class="portfolio-item-text">
+                  <h2 class="title portfolio-item-name">Ресторан Seafood</h2>
+                  <p class="description-category">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a class="link portfolio-link" href="">
+                <div class="portfolio-item-wrap">
+                  <img
+                    class="image"
+                    src="./images/prime.jpg"
+                    alt="Проект Prime"
+                    width="370"
+                  />
+                  <p class="portfolio-picture-text">
+                    мужика, стоявшие у дверей кабака против гостиницы, сделали
+                    кое-какие замечания, относившиеся, впрочем, более к экипажу,
+                    чем к сидевшему в нем. «Вишь ты, — сказал один другому, —
+                    вон какое колесо!
+                  </p>
+                </div>
+                <div class="portfolio-item-text">
+                  <h2 class="title portfolio-item-name">Проект Prime</h2>
+                  <p class="description-category">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a class="link portfolio-link" href="">
+                <div class="portfolio-item-wrap">
+                  <img
+                    class="image"
+                    src="./images/boxes.jpg"
+                    alt="Проект Boxes"
+                    width="370"
+                  />
+                  <p class="portfolio-picture-text">
+                    что ты думаешь, доедет то колесо, если б случилось, в Москву
+                    или не доедет?» — «Доедет», — отвечал другой. «А в
+                    Казань-то, я думаю, не доедет?» — «В Казань не доедет», —
+                    отвечал другой.
+                  </p>
+                </div>
+                <div class="portfolio-item-text">
+                  <h2 class="title portfolio-item-name">Проект Boxes</h2>
+                  <p class="description-category">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a class="link portfolio-link" href="">
+                <div class="portfolio-item-wrap">
+                  <img
+                    class="image"
+                    src="./images/site-inspiration.jpg"
+                    alt="Inspiration has no Borders"
+                    width="370"
+                  />
+                  <p class="portfolio-picture-text">
+                    Этим разговор и кончился. Да еще, когда бричка подъехала к
+                    гостинице, встретился молодой человек в белых канифасовых
+                    панталонах, весьма узких и коротких, во фраке с покушеньями
+                    на моду,
+                  </p>
+                </div>
+                <div class="portfolio-item-text">
+                  <h2 class="title portfolio-item-name">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="description-category">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a class="link portfolio-link" href="">
+                <div class="portfolio-item-wrap">
+                  <img
+                    class="image"
+                    src="./images/limited-edition.jpg"
+                    alt="Издание Limited Edition"
+                    width="370"
+                  />
+                  <p class="portfolio-picture-text">
+                    из-под которого видна была манишка, застегнутая тульскою
+                    булавкою с бронзовым пистолетом. Молодой человек оборотился
+                    назад, посмотрел экипаж, придержал рукою картуз, чуть не
+                    слетевший от ветра,
+                  </p>
+                </div>
+                <div class="portfolio-item-text">
+                  <h2 class="title portfolio-item-name">
+                    Издание Limited Edition
+                  </h2>
+                  <p class="description-category">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a class="link portfolio-link" href="">
+                <div class="portfolio-item-wrap">
+                  <img
+                    class="image"
+                    src="./images/project-lab.jpg"
+                    alt="Проект LAB"
+                    width="370"
+                  />
+                  <p class="portfolio-picture-text">
+                    и пошел своей дорогой. Когда экипаж въехал на двор, господин
+                    был встречен трактирным слугою, или половым, как их называют
+                    в русских трактирах, живым и вертлявым до такой степени,
+                  </p>
+                </div>
+                <div class="portfolio-item-text">
+                  <h2 class="title portfolio-item-name">Проект LAB</h2>
+                  <p class="description-category">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a class="link portfolio-link" href="">
+                <div class="portfolio-item-wrap">
+                  <img
+                    class="image"
+                    src="./images/growing-business-app.jpg"
+                    alt="Growing Business"
+                    width="370"
+                  />
+                  <p class="portfolio-picture-text">
+                    что даже нельзя было рассмотреть, какое у него было лицо.
+                  </p>
+                </div>
+                <div class="portfolio-item-text">
+                  <h2 class="title portfolio-item-name">Growing Business</h2>
+                  <p class="description-category">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__lists">
+        <div class="footer__links">
+          <a class="link logo footer__logo" href="./index.html"
+            >Web<span class="footer__logo--right-side">Studio</span></a
+          >
+          <address class="footer__contacts">
+            <ul class="list address-elements-list">
+              <li class="footer__contact-item">
+                <a
+                  class="link footer__contact-link footer__map-link"
+                  href="https://goo.gl/maps/Wf1jdF7rT11svYJ97"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer__contact-item">
+                <a
+                  class="link footer__contact-link"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer__contact-item">
+                <a class="link footer__contact-link" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer__social">
+          <p class="footer__social-text">Присоединяйтесь</p>
+          <ul class="list social-list">
+            <li class="social-item">
+              <a href="" class="social-link social-link-footer">
+                <svg class="social-icon social-icon-footer">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link social-link-footer">
+                <svg class="social-icon social-icon-footer">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link social-link-footer">
+                <svg class="social-icon social-icon-footer">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link social-link-footer">
+                <svg class="social-icon social-icon-footer">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form action="#" class="subscribe-form">
+          <p class="footer__social-text">Подпишитесь на рассылку</p>
+          <div class="subscribe-form__wrapper">
+            <label for="email" class="subscribe-form__field"></label>
+            <input
+              id="email"
+              type="email"
+              class="subscribe-form__input"
+              name="subscribe-user-mail"
+              minlength="5"
+              placeholder="E-mail"
+              required
+            />
+
+            <button type="submit" class="btn subscribe-form__btn">
+              <span class="subscribe-form__btn-text">Подписаться</span
+              ><svg class="subscribe-form__btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

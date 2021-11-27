@@ -1,0 +1,40 @@
+.section.studio-activities {
+  padding-top: 0;
+}
+
+.activities-and-team-header {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.activities-list {
+  display: flex;
+}
+
+.activities-item {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.activities-description-wrap {
+  position: absolute;
+  @include element-size(100%, 70px);
+  background-color: var(--bg-activities-wrap);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+.activities-description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--bg-color);
+}
